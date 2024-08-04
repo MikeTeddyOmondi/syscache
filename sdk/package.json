@@ -1,0 +1,17 @@
+{
+  "name": "syscache-sdk",
+  "version": "1.0.0",
+  "description": "A WebAssembly SDK for Memory Cache",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "build": "wasm-pack build --target web",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MikeTeddyOmondi",
+  "license": "MIT",
+  "dependencies": {
+    "syscache": "file:../pkg"
+  },
+  "devDependencies": {}
+}
